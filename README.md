@@ -25,4 +25,4 @@ Repository accompanying "An Open Dataset and Model for Language Identification" 
 |[Tehran English-Persian parallel corpus (TEP)](https://opus.nlpl.eu/TEP.php)|Parallel Persian-English sentences sourced from subtitles|[GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html)|
 |[Turkic Interlingua (TIL) Corpus](https://github.com/turkic-interlingua/til-mt)|A large-scale parallel corpus combining most of the public datasets for 22 Turkic languages|[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)|
 |[WiLI-2018](https://zenodo.org/record/841984)|Wikipedia language identification benchmark containing 235K paragraphs of 235 languages|[Open Data Commons Open Database License (ODbL) v1.0](https://opendatacommons.org/licenses/odbl/1-0/)|
-|[XL-Sum](https://github.com/csebuetnlp/xl-sum)||[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)|
+|[XL-Sum](https://github.com/csebuetnlp/xl-sum)|Summarisation dataset covering 44 languages, sourced from BBC News|[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)|

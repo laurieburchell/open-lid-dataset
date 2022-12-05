@@ -19,7 +19,7 @@ Repository accompanying "An Open Dataset and Model for Language Identification" 
 |[EM corpus](http://lepage-lab.ips.waseda.ac.jp/en/projects/meiteilon-manipuri-language-resources/)|Parallel Manipuri-English sentences crawled from [The Sangai Express](https://www.thesangaiexpress.com/)|[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)|
 |[MIZAN](https://github.com/omidkashefi/Mizan)|Parallel Persian-English corpus from literature domain|Creative Commons Attribution 4.0 International Public License|
 |[MT560 v1](https://opus.nlpl.eu/MT560.php)|A machine translation dataset for over 500 languages to English|[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)|
-|[NLLB Seed](https://github.com/facebookresearch/flores/blob/main/nllb_seed/README.md)|Around 6000 sentences in 39 languages sampled from Wikipedia, intended to cover languages lacking training data.|CC BY-SA 4.0|
+|[NLLB Seed](https://github.com/facebookresearch/flores/blob/main/nllb_seed/README.md)|Around 6000 sentences in 39 languages sampled from Wikipedia, intended to cover languages lacking training data.|[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)|
 |[SETIMES](https://opus.nlpl.eu/SETIMES.php)|A parallel corpus of news articles in the Balkan languages|[CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/)|
 |[Tatoeba](https://opus.nlpl.eu/Tatoeba.php)|Collaborative sentence translations|[CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/)|
 |[Tehran English-Persian parallel corpus (TEP)](https://opus.nlpl.eu/TEP.php)|Parallel Persian-English sentences sourced from subtitles|[GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html)|

@@ -1,7 +1,9 @@
 # An Open Dataset and Model for Language Identification
 Repository accompanying "An Open Dataset and Model for Language Identification" (Burchell et al., upcoming)
 
-## Data sources
+## Open dataset
+
+**TLDR:** To the best of the authors' knowledge, the whole dataset is covered by a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). License considerations for each source are given below. Please get in touch with any queries or complaints.
 
 | Source | Description | License |
 |---|---|---|
@@ -13,6 +15,6 @@ Repository accompanying "An Open Dataset and Model for Language Identification" 
 |[IADD](https://github.com/JihadZa/IADD)|Arabic dialect identification dataset covering 5 regions (Maghrebi, Levantine, Egypt, Iraq, and Gulf) and 9 countries (Algeria, Morocco, Tunisia, Palestine, Jordan, Syria, Lebanon, Egypt and Iraq). It is created from five corpora: [DART](http://qufaculty.qu.edu.qa/telsay), [SHAMI](https://github.com/GU-CLASP/shami-corpus), [TSAC](https://github.com/fbougares/TSAC), [PADIC](https://sourceforge.net/projects/padic/), and [AOC](https://www.cs.jhu.edu/data-archive/AOC-2010/). | Multiple licenses: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) (SHAMI); [GNU Lesser General Public License v3.0](https://github.com/fbougares/TSAC/blob/master/LICENSE) (TSAC); [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.en.html) (PADIC). DART and AOC had no explicit license.|
 |[Leipzig Corpora Collection](https://wortschatz.uni-leipzig.de/en/download)|A collection of corpora in different languages with an identical format.|The [Terms of Usage](https://wortschatz.uni-leipzig.de/en/usage) states "Permission for use is granted free of charge solely for non-commercial personal and scientific purposes licensed under the [Creative Commons License CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)."|
 |[LTI](https://www.cs.cmu.edu/~ralf/langid.html)|Training data for language identification|From the README: "With the exception of the contents of the Europarl/, ProjectGutenberg/, and PublicDomain/ directories, all code and text in this corpus are copyrighted. However, they may be redistributed under the terms of various Creative Commons licenses and the GNU GPL.  Copying the unmodified archive noncommercially is permitted by all of the licenses. For commercial redistribution or redistribution of modified versions, please consult the individual licenses."|
-
-
-The appropriate citations to these datasets (to the best of the authors' knowledge) have been included in the paper accompanying this repo. In case of any queries or complaints, please get in touch.
+|[MADAR Shared Task 2019, subtask 1](https://camel.abudhabi.nyu.edu/madar-shared-task-2019/)|Dialectal Arabic in the travel domain|The MADAR Corpus has a custom license, the text of which can be found in this repo.|
+|[EM corpus](http://lepage-lab.ips.waseda.ac.jp/en/projects/meiteilon-manipuri-language-resources/)|Parallel Manipuri-English sentences crawled from [The Sangai Express](https://www.thesangaiexpress.com/)|[Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/)|
+|[MIZAN](https://github.com/omidkashefi/Mizan)|Parallel Persian-English corpus from literature domain|Creative Commons Attribution 4.0 International Public License|

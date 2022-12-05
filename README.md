@@ -3,7 +3,13 @@ Repository accompanying "An Open Dataset and Model for Language Identification" 
 
 ## Open dataset
 
-**TLDR:** License considerations for each source are given below; thank you to everyone who put in so much work creating these datasets. If you use this dataset, please cite all the articles in the `citations.bib` file. If you view any part of this dataset as a violation of intellectual property rights, please let us know and we will remove it. 
+The combined dataset used to train the language identification model can be found at **INSERT_LINK**.
+
+### Licenses
+
+License considerations for each source are given below; thank you to everyone who put in so much work creating these datasets. Open use of the combined dataset for non-commercial purposes is covered by all licences. If you use this dataset, please cite all the articles in the `citations.bib` file. 
+
+If you view any part of this dataset as a violation of intellectual property rights, please let us know and we will remove it. 
 
 | Source | Description | License |
 |---|---|---|

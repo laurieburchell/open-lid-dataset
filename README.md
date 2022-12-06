@@ -7,6 +7,8 @@ The fasttext LID model can be found at https://data.statmt.org/lid/lid201-model.
 
 ### License
 
+The model is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
+
 ## Dataset
 
 The combined dataset used to train the language identification model can be found at https://data.statmt.org/lid/lid201-data.tsv.gz. Each tab-separated line consists of a sentence in one of the 201 languages, a code for the language, and script (e.g. `wol_Latn` = Wolof in Latin script), and the source of that line of data.

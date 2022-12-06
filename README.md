@@ -1,9 +1,17 @@
 # An Open Dataset and Model for Language Identification
 Repository accompanying "An Open Dataset and Model for Language Identification" (Burchell et al., upcoming)
 
-## Open dataset
+## LID model
 
-The combined dataset used to train the language identification model can be found at **INSERT_LINK**.
+The fasttext LID model can be found at https://data.statmt.org/lid/lid201-model.bin.gz. To use it, install [FastText](https://fasttext.cc/), decompress the model, then run `fasttext predict lid201-model.bin $DATA > output.fasttext`.
+
+### License
+
+## Dataset
+
+The combined dataset used to train the language identification model can be found at https://data.statmt.org/lid/lid201-data.tsv.gz. Each tab-separated line consists of a sentence in one of the 201 languages, a code for the language, and script (e.g. `wol_Latn` = Wolof in Latin script), and the source of that line of data.
+
+To convert the dataset into fasttext training format, run `pigz -dc lid201-data.tsv.gz | awk -F"\t" '{print"__label__"$2" "$1}' > lid201-data.fasttext.tsv`. 
 
 ### Licenses
 

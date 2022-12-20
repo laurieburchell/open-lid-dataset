@@ -1,13 +1,6 @@
 # An Open Dataset and Model for Language Identification
 Repository accompanying "An Open Dataset and Model for Language Identification" (Burchell et al., upcoming)
 
-## LID model
-
-The fasttext LID model can be found at https://data.statmt.org/lid/lid201-model.bin.gz. To use it, install [FastText](https://fasttext.cc/), decompress the model, then run `fasttext predict lid201-model.bin $DATA > output.fasttext`.
-
-### License
-
-The model is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
 
 ## Dataset
 
@@ -42,3 +35,12 @@ If you view any part of this dataset as a violation of intellectual property rig
 |[Turkic Interlingua (TIL) Corpus](https://github.com/turkic-interlingua/til-mt)|A large-scale parallel corpus combining most of the public datasets for 22 Turkic languages|[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)|
 |[WiLI-2018](https://zenodo.org/record/841984)|Wikipedia language identification benchmark containing 235K paragraphs of 235 languages|[Open Data Commons Open Database License (ODbL) v1.0](https://opendatacommons.org/licenses/odbl/1-0/)|
 |[XL-Sum](https://github.com/csebuetnlp/xl-sum)|Summarisation dataset covering 44 languages, sourced from BBC News|[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)|
+
+
+## LID model
+
+The fasttext LID model can be found at https://data.statmt.org/lid/lid201-model.bin.gz. To use it, install [FastText](https://fasttext.cc/), decompress the model, then run `fasttext predict lid201-model.bin $DATA > output.fasttext`.
+
+### License
+
+The model is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).

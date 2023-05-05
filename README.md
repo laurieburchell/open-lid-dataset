@@ -1,5 +1,5 @@
 # An Open Dataset and Model for Language Identification
-Repository accompanying "An Open Dataset and Model for Language Identification" (Burchell et al., upcoming)
+Repository accompanying "An Open Dataset and Model for Language Identification" (Burchell et al., ACL 2023).
 
 
 ## Dataset
@@ -12,7 +12,7 @@ The classes in the training dataset have been sampled to help ameliorate class s
 
 ### Licenses
 
-License considerations for each source are given below; thank you to everyone who put in so much work creating these datasets. Open use of the combined dataset for non-commercial purposes is covered by all licences. If you use this dataset, please cite all the articles in the `citations.bib` file. 
+License considerations for each source are given below; thank you to everyone who put in so much work creating these datasets. Open use of the combined dataset for non-commercial purposes is covered by all licences. If you use this dataset, please cite us plus all the articles in the `citations.bib` file. 
 
 If you view any part of this dataset as a violation of intellectual property rights, please let us know and we will remove it. 
 

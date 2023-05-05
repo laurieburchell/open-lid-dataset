@@ -8,6 +8,8 @@ The combined dataset used to train the language identification model can be foun
 
 To convert the dataset into fasttext training format, run `pigz -dc lid201-data.tsv.gz | awk -F"\t" '{print"__label__"$2" "$1}' > lid201-data.fasttext.tsv`. 
 
+The classes in the training dataset have been sampled to help ameliorate class skew. This means that the larger classes have been subsampled and the smaller classes have been upsampled. If you would like the unsampled datset, you can download it from https://data.statmt.org/lid/lid201-data-unsampled.tsv.gz. 
+
 ### Licenses
 
 License considerations for each source are given below; thank you to everyone who put in so much work creating these datasets. Open use of the combined dataset for non-commercial purposes is covered by all licences. If you use this dataset, please cite all the articles in the `citations.bib` file. 

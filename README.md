@@ -39,9 +39,9 @@ If you view any part of this dataset as a violation of intellectual property rig
 |[XL-Sum](https://github.com/csebuetnlp/xl-sum)|Summarisation dataset covering 44 languages, sourced from BBC News|[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)|
 
 
-## LID model
+## LID model: OpenLID
 
-The fasttext LID model can be found at https://data.statmt.org/lid/lid201-model.bin.gz. To use it, install [FastText](https://fasttext.cc/), decompress the model, then run `fasttext predict lid201-model.bin $DATA > output.fasttext`.
+The OpenLID fasttext LID model can be found at https://data.statmt.org/lid/lid201-model.bin.gz. To use it, install [FastText](https://fasttext.cc/), decompress the model, then run `fasttext predict lid201-model.bin $DATA > output.fasttext`.
 
 ### License
 

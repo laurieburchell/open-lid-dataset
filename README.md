@@ -5,8 +5,6 @@ Repository accompanying "An Open Dataset and Model for Language Identification" 
 
 The OpenLID fasttext LID model can be found at https://data.statmt.org/lid/lid201-model.bin.gz. To use it, install [FastText](https://fasttext.cc/), decompress the model, then run `fasttext predict lid201-model.bin $DATA > output.fasttext`.
 
-### License
-
 The model is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
 
 

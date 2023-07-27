@@ -6,7 +6,7 @@ Fast natural language identification for 200+ languages, plus all the data to tr
 
 ## Features
 
- - Supports 201 languages
+ - Supports [201 languages](languages.md)
  - High performance
  - Fast and easy to use
  - Fully transparent: training data and per-language performance openly available

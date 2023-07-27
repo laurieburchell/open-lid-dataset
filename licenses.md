@@ -2,7 +2,7 @@
 
 License considerations for each source are given below. Open use of the combined dataset for non-commercial purposes is covered by all licences.  
 
-Thank you to everyone who put in so much work creating these datasets! If you view any part of this dataset as a violation of intellectual property rights, please let us know and we will remove it. 
+If you view any part of this dataset as a violation of intellectual property rights, please let us know and we will remove it. 
 
 | Source | Description | License |
 |---|---|---|

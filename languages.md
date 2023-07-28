@@ -1,5 +1,5 @@
 
-| Language code          | Language                | Lines of training data | F1 score                       | False positive rate                         |
+| Language code          | Language                | Lines of training data | F1 score                       | False positive %                         |
 |------------------------|-------------------------|------------------------|--------------------------------|-----------------------------|
 | ace_Arab               | Acehnese                | 6191                   | 0.9679                         | 0.0079                      |
 | ace_Latn               | Acehnese                | 18032                  | 0.9980                         | 0.0005                      |

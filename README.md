@@ -44,3 +44,7 @@ The classes in the training dataset have been sampled to help ameliorate class s
 ## Citations
 
 If you use our model, please [cite us](https://aclanthology.org/2023.acl-short.75). If you use the dataset, please cite us plus all the articles in the `citations.bib` file. Thank you to everyone who put in so much work creating these datasets! 
+
+## Licenses
+
+The model is licensed under the [GNU General Public License v3.0](LICENSE). The individual datasets that make up the training dataset have different licenses but all allow (at minimum) free use for research - [a full list](licenses.md) is available in this repo.

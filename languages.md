@@ -1,3 +1,5 @@
+F1 scores and false positive % are on the FLORES-200 test set.
+
 
 | Language code          | Language                | Lines of training data | F1 score                       | False positive %                         |
 |------------------------|-------------------------|------------------------|--------------------------------|-----------------------------|

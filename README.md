@@ -31,7 +31,7 @@ fasttext predict lid201-model.bin $DATA > output.fasttext
 
 ## Dataset
 
-Download the dataset (c. 21GB) and convert it to fastText traning format:
+Download the dataset (c. 21GB) and convert it to fastText training format:
 ```shell
 wget https://data.statmt.org/lid/lid201-data.tsv.gz
 pigz -dc lid201-data.tsv.gz | awk -F"\t" '{print"__label__"$2" "$1}' > lid201-data.fasttext.tsv

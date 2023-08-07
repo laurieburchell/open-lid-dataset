@@ -1,6 +1,6 @@
 # Licenses
 
-License considerations for each source are given below. Open use of the combined dataset for non-commercial purposes is covered by all licences.  
+License considerations for each source are given below. Open use for non-commercial purposes is covered by all licences.  
 
 If you view any part of this dataset as a violation of intellectual property rights, please let us know and we will remove it. 
 

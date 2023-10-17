@@ -29,6 +29,15 @@ fasttext predict lid201-model.bin $DATA > output.fasttext
 
 ```
 
+### Quantised model
+
+There is also a quantised version of the model with a much smaller memory footprint (7MB rather than 1.2GB) but similar performance (macroaverage F1 score of 0.921 versus 0.927). 
+
+```shell
+wget https://data.statmt.org/lid/lid201-model.ftz
+```
+
+
 ## Dataset
 
 Download the dataset (c. 21GB) and convert it to fastText training format:

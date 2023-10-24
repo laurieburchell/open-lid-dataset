@@ -10,6 +10,7 @@ Fast natural language identification for 200+ languages, plus all the data to tr
  - High performance
  - Fast and easy to use
  - Fully transparent: training data and per-language performance openly available
+ - Used by [Wikimedia](https://diff.wikimedia.org/2023/10/24/open-language-identification-api-for-200-languages/)
 
 ## Get started
 

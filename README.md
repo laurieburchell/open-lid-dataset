@@ -51,9 +51,19 @@ Each tab-separated line consists of a sentence in one of the 201 languages, a co
 
 The classes in the training dataset have been sampled to help ameliorate class skew. This means that the larger classes have been subsampled and the smaller classes have been upsampled. If you would like the unsampled datset, you can download it from https://data.statmt.org/lid/lid201-data-unsampled.tsv.gz. 
 
+
+## Training
+
+We used the following command to train the model:
+```shell
+fasttext supervised -input lid201-data.fasttext.tsv -output lid201-model -minCount 1000 -bucket 1000000 -minn 2 -maxn 5 -lr 0.8 -dim 256 -epoch 2 -thread 68 -wordNgrams 1
+```
+More details about the dataset and model creation are available in the accompanying paper: [An Open Dataset and Model for Language Identification](https://aclanthology.org/2023.acl-short.75.pdf).
+
 ## Citations
 
 If you use our model, please [cite us](https://aclanthology.org/2023.acl-short.75). If you use the dataset, please cite us plus all the articles in the `citations.bib` file. Thank you to everyone who put in so much work creating these datasets! 
+
 
 ## Licenses
 

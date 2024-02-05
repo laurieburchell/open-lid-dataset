@@ -60,6 +60,11 @@ fasttext supervised -input lid201-data.fasttext.tsv -output lid201-model -minCou
 ```
 More details about the dataset and model creation are available in the accompanying paper: [An Open Dataset and Model for Language Identification](https://aclanthology.org/2023.acl-short.75.pdf).
 
+To train the quantised model, we ran:
+```shell
+fasttext quantize -input lid201-data.fasttext.tsv -output lid201-model -minCount 1000 -bucket 1000000 -minn 2 -maxn 5 -lr 0.8 -dim 256 -epoch 2 -thread 68 -wordNgrams 1 -qnorm -cutoff 50000 -retrain
+```
+
 ## Citations
 
 If you use our model, please [cite us](https://aclanthology.org/2023.acl-short.75). If you use the dataset, please cite us plus all the articles in the `citations.bib` file. Thank you to everyone who put in so much work creating these datasets! 

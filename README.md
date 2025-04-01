@@ -4,6 +4,9 @@
 
 Fast natural language identification for 200+ languages, plus all the data to train the model.
 
+> [!NOTE]
+> An updated version of the OpenLID model and dataset is available on HuggingFace: [OpenLID-v2](https://huggingface.co/datasets/laurievb/OpenLID-v2)
+
 ## Features
 
  - Supports [201 languages](languages.md)
